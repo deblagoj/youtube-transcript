@@ -1,5 +1,10 @@
 from urllib.parse import urlparse
 import sys
+print('T')
+from youtube_transcript_api import YouTubeTranscriptApi
+print('Y')
+
+
 
 #print ('This is the name of the script: ', sys.argv[0])
 #print ('Number of arguments: ', len(sys.argv))
@@ -13,7 +18,7 @@ URL=urlparse(o).query[2:]
 
 #print(URL)
 
-from youtube_transcript_api import YouTubeTranscriptApi
+
 
 dataset=YouTubeTranscriptApi.get_transcript(URL)
 

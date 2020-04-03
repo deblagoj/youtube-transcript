@@ -73,8 +73,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 
 
-version 1
-
 
 <form class="form-inline" action="" method="post">
 Youtube link: <input type="text" name="link"><br>
@@ -93,8 +91,8 @@ echo '2';
 $txt = 'python3 transcript10.py ';
 $txt .=$_POST["link"];
 $command = escapeshellcmd($txt);
-$var = shell_exec($command);
-echo $var ;
+$var = system($command);
+
 echo '<textarea class="box">'.$var.'</textarea>';
 }
 ?>
