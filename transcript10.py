@@ -1,8 +1,9 @@
 from urllib.parse import urlparse
 import sys
-print('T')
+print('11111')
+
 from youtube_transcript_api import YouTubeTranscriptApi
-print('Y')
+print('22222')
 
 
 
