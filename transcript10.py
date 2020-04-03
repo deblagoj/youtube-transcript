@@ -1,6 +1,8 @@
 from urllib.parse import urlparse
 import sys
 print('11111')
+import sys
+print(sys.path)
 
 from youtube_transcript_api import YouTubeTranscriptApi
 print('22222')
