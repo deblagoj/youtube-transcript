@@ -85,14 +85,16 @@ Youtube link: <input type="text" name="link"><br>
 
 
 <?php
+echo '1';
 if(isset($_POST["link"])) {
      // process form data, send email, output message
-
+echo '2';
 #echo $_POST["link"];
 $txt = 'python3 transcript10.py ';
 $txt .=$_POST["link"];
 $command = escapeshellcmd($txt);
 $var = shell_exec($command);
+echo $var ;
 echo '<textarea class="box">'.$var.'</textarea>';
 }
 ?>
