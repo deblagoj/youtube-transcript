@@ -1,7 +1,0 @@
-requests
-
-# testing
-mock
-httpretty
-coverage
-coveralls
