@@ -1,0 +1,21 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /watch?v=PmYypVozQb4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /api/timedtext?v=PmYypVozQb4&xorp=true&hl=nl&ip=0.0.0.0&ipbits=0&expire=1586016501&sparams=ip,ipbits,expire,v,xorp&signature=1C90F904D0AFBC5CC79A1530B76C436791D01F8E.7ADE2173C0B92EDF1C2F49828B22A5E5531C138C&key=yt8&lang=en&name=German HTTP/1.1" 200 None
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /watch?v=PmYypVozQb4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /api/timedtext?v=PmYypVozQb4&xorp=true&hl=nl&ip=0.0.0.0&ipbits=0&expire=1586020752&sparams=ip,ipbits,expire,v,xorp&signature=5DD667AF2B9720F5636FECDD8A3BA04D3545623A.65121ED06888CB50314AA1D5D1669428D956D9B3&key=yt8&lang=en&name=German HTTP/1.1" 200 None
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /watch?v=PmYypVozQb4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /api/timedtext?v=PmYypVozQb4&xorp=true&hl=nl&ip=0.0.0.0&ipbits=0&expire=1586020798&sparams=ip,ipbits,expire,v,xorp&signature=961BD90A7A53D7A5B0B9096782950421F89F3758.120F5B899F223490EAB3E591FB619E0917528D48&key=yt8&lang=en&name=German HTTP/1.1" 200 None
