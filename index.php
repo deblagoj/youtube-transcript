@@ -1,5 +1,5 @@
 <html>
-<html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -86,14 +86,13 @@ Youtube link: <input type="text" name="link"><br>
 
 if(isset($_POST["link"])) {
 
-
 #echo $_POST["link"];
-$txt = 'python3 transcript10.py ';
+$txt = 'python3 transcript1.py ';
 $txt .=$_POST["link"];
 $command = escapeshellcmd($txt);
-$var = system($command);
+$output = shell_exec($command);
 
-echo '<textarea class="box">'.$var.'</textarea>';
+echo '<textarea class="box">'.$output.'</textarea>';
 }
 ?>
 
