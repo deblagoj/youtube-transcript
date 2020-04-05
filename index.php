@@ -54,15 +54,24 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <style>
     .box{
         border: 1px solid #aaa; /*getting border*/
-
         color: #000; /*text color*/
         box-sizing: border-box;
-          width: 75%;
+          width: 100%;
           height: 70%;
 
           float: left;
           padding: 50px;
+
+
+        	border: 3px solid #cccccc;
+        	padding: 5px;
+        	font-family: Tahoma, sans-serif;
+        	background-image: url(bg.gif);
+        	background-position: bottom right;
+        	background-repeat: no-repeat;
     }
+
+
 </style>
 
 
@@ -70,8 +79,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 </head>
 <body>
-
-
 
 
 <form class="form-inline" action="" method="post">
@@ -93,9 +100,25 @@ $command = escapeshellcmd($txt);
 $output = shell_exec($command);
 
 echo '<textarea class="box">'.$output.'</textarea>';
+
+
 }
 ?>
+<br>
+
 
 
 </body>
+<footer>
+  <p>Posted by: Bitt Solutions</p>
+  <p>Contact information: <a href="mailto:blagoj@bitt.solutions">
+  blagoj@bitt.solutions</a>.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="BZCPN6LPAXXFN" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+  <img alt="" border="0" src="https://www.paypal.com/en_NL/i/scr/pixel.gif" width="1" height="1" />
+  </form>
+
+</footer>
 </html>
