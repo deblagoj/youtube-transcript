@@ -19,7 +19,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .form-inline input {
   vertical-align: middle;
-  width: 30%;
+  width: 50%;
 
   margin: 5px 10px 5px 0;
   padding: 10px;
@@ -108,11 +108,13 @@ echo '<textarea class="box">'.$output.'</textarea>';
 
 
 
+
 </body>
 <footer>
+  <br>
   <p>Posted by: Bitt Solutions</p>
-  <p>Contact information: <a href="mailto:blagoj@bitt.solutions">
-  blagoj@bitt.solutions</a>.</p>
+  <p>Contact information: <a href="mailto:info@bitt.solutions">
+  info@bitt.solutions</a>.</p>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick" />
   <input type="hidden" name="hosted_button_id" value="BZCPN6LPAXXFN" />
