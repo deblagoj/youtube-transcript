@@ -1,9 +1,9 @@
 
 # YouTube Transcript/Subtitle
 
+Live web site http://188.166.59.67/
 
-
-This is an app which allows you to get the transcripts/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headless browser, like other selenium based solutions do!
+This is an app which allows you to get the transcripts/subtitles for a given YouTube video. 
 
 ## Related project
 
