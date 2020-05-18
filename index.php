@@ -95,7 +95,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 </style>
 
-
+<title>Youtube transcript </title>
 
 
 </head>
@@ -129,7 +129,7 @@ echo '<textarea class="box">'.$output.'</textarea>';
 
 
 
-
+*not all youtube videos contain transcript, for test try this link https://www.youtube.com/watch?v=iG9CE55wbtY
 </body>
 <footer>
   <br>
@@ -139,7 +139,7 @@ echo '<textarea class="box">'.$output.'</textarea>';
     <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.youtube-transcript.com&title=&summary=&source=http%3A%2F%2Fwww.youtube-transcript.com" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Share on LinkedIn" src="images/flat_web_icon_set/color/LinkedIn.png" /></a></li>
     <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.youtube-transcript.com" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="images/flat_web_icon_set/color/Email.png" /></a></li>
   </ul>
-  
+
   <p>Contact information: <a href="mailto:info@bitt.solutions">
   info@bitt.solutions</a>.</p>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
