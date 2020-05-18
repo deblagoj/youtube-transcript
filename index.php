@@ -72,6 +72,27 @@ body {font-family: Arial, Helvetica, sans-serif;}
     }
 
 
+    ul.share-buttons{
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.share-buttons li{
+      display: inline;
+    }
+
+    ul.share-buttons .sr-only{
+      position: absolute;
+      clip: rect(1px 1px 1px 1px);
+      clip: rect(1px, 1px, 1px, 1px);
+      padding: 0;
+      border: 0;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+
+
+
 </style>
 
 
@@ -112,7 +133,7 @@ echo '<textarea class="box">'.$output.'</textarea>';
 </body>
 <footer>
   <br>
-  <p>Posted by: Bitt Solutions</p>
+
   <p>Contact information: <a href="mailto:info@bitt.solutions">
   info@bitt.solutions</a>.</p>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -121,6 +142,13 @@ echo '<textarea class="box">'.$output.'</textarea>';
   <input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
   <img alt="" border="0" src="https://www.paypal.com/en_NL/i/scr/pixel.gif" width="1" height="1" />
   </form>
+
+  <ul class="share-buttons">
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.youtube-transcript.com&quote=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"><img alt="Share on Facebook" src="images/flat_web_icon_set/color/Facebook.png" /></a></li>
+    <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.youtube-transcript.com&text=:%20http%3A%2F%2Fwww.youtube-transcript.com" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img alt="Tweet" src="images/flat_web_icon_set/color/Twitter.png" /></a></li>
+    <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.youtube-transcript.com&title=&summary=&source=http%3A%2F%2Fwww.youtube-transcript.com" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Share on LinkedIn" src="images/flat_web_icon_set/color/LinkedIn.png" /></a></li>
+    <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.youtube-transcript.com" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="images/flat_web_icon_set/color/Email.png" /></a></li>
+  </ul>
 
 </footer>
 </html>
