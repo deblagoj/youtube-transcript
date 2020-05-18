@@ -129,7 +129,7 @@ echo '<textarea class="box">'.$output.'</textarea>';
 
 
 
-*not all youtube videos contain transcript, for test try this link https://www.youtube.com/watch?v=iG9CE55wbtY
+*not all youtube videos contain transcript, for test try this link <a href="https://www.youtube.com/watch?v=iG9CE55wbtY">https://www.youtube.com/watch?v=iG9CE55wbtY</a> 
 </body>
 <footer>
   <br>
