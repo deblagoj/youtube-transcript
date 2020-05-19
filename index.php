@@ -1,6 +1,20 @@
 <html>
 
 <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163121371-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163121371-1');
+</script>
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -142,7 +156,7 @@ echo '<textarea class="box">'.$output.'</textarea>';
 
   <p>Contact information: <a href="mailto:blagoj.delipetrev@gmail.com">
   Blagoj.delipetrev at gmail.com</a>.</p>
-  
+
 
 
 </footer>
