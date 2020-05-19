@@ -129,7 +129,7 @@ echo '<textarea class="box">'.$output.'</textarea>';
 
 
 
-*not all youtube videos contain transcript, for test try this link <a href="https://www.youtube.com/watch?v=iG9CE55wbtY">https://www.youtube.com/watch?v=iG9CE55wbtY</a> 
+*not all youtube videos contain transcript, for test try this link <a href="https://www.youtube.com/watch?v=iG9CE55wbtY">https://www.youtube.com/watch?v=iG9CE55wbtY</a>
 </body>
 <footer>
   <br>
@@ -140,15 +140,9 @@ echo '<textarea class="box">'.$output.'</textarea>';
     <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.youtube-transcript.com" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="images/flat_web_icon_set/color/Email.png" /></a></li>
   </ul>
 
-  <p>Contact information: <a href="mailto:info@bitt.solutions">
-  info@bitt.solutions</a>.</p>
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="BZCPN6LPAXXFN" />
-  <input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-  <img alt="" border="0" src="https://www.paypal.com/en_NL/i/scr/pixel.gif" width="1" height="1" />
-  </form>
-
+  <p>Contact information: <a href="mailto:blagoj.delipetrev@gmail.com">
+  Blagoj.delipetrev at gmail.com</a>.</p>
+  
 
 
 </footer>
